@@ -1,0 +1,33 @@
+.TB-question{
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 80px;
+}
+
+.move-button{
+  float: right;
+  display: flex;
+  justify-content: right;
+  
+}
+
+.right-button{ 
+  width: 0;
+  height: 0;
+  border-top: solid 15px transparent;
+  border-right: solid 15px transparent;
+  border-bottom: solid 15px transparent;
+  border-left: solid 15px blue;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.left-button{ 
+  width: 0;
+  height: 0;
+  border-top: solid 15px transparent;
+  border-right: solid 15px #787d83;
+  border-bottom: solid 15px transparent;
+  border-left: solid 15px transparent;
+  cursor: pointer;
+}

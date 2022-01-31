@@ -120,11 +120,11 @@ body {
 }
 
 .pop-wrap {
-  width: 60vw;
-  height: 70vh;
+  width: 80vw;
+  height: 90vh;
   margin: 40px auto;
+  padding: 40px;
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
   background: white;
   border-top: solid 5px #5d627b;
@@ -132,9 +132,40 @@ body {
 }
 
 .pop-title {
-  padding-left: 20px;
-  padding-top: 20px;
-  font-size: 2rem;
+  font-size: 44px;
+  line-height: 44px;
+  margin-bottom: 20px;
+}
+
+.pop-distribution {
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.form-wrap {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.form-wrap form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.form-wrap ul {
+  margin-bottom: 80px;
+  list-style: none;
+  line-height: 25px;
+}
+.form-wrap ul li {
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.form-wrap button {
+  margin: 0 auto;
+  width: 80px;
 }
 
 #first-view {
@@ -146,7 +177,7 @@ body {
 
 .first-container {
   background-image: url(../img/hair-salon-img3.jpeg);
-  width: 80%;
+  width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -172,30 +203,16 @@ body {
   height: 40px;
 }
 
-.form-wrap {
-  width: 80%;
-  margin: 0 auto;
-  padding-bottom: 60px;
-}
-.form-wrap form {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-.form-wrap ul {
+.TB-question {
+  font-size: 24px;
+  line-height: 24px;
   margin-bottom: 80px;
-  list-style: none;
-  line-height: 25px;
-}
-.form-wrap button {
-  margin: 0 auto;
-  width: 80px;
 }
 
 .move-button {
   float: right;
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
 }
 
 .right-button {
@@ -206,6 +223,7 @@ body {
   border-bottom: solid 15px transparent;
   border-left: solid 15px blue;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .left-button {
@@ -215,6 +233,18 @@ body {
   border-right: solid 15px #787d83;
   border-bottom: solid 15px transparent;
   border-left: solid 15px transparent;
+  cursor: pointer;
+}
+
+.TB-research-img {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
