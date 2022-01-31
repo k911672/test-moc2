@@ -221,19 +221,44 @@ body {
   border-top: solid 15px transparent;
   border-right: solid 15px transparent;
   border-bottom: solid 15px transparent;
-  border-left: solid 15px blue;
+  border-left: solid 15px #005FFF;
   margin-left: 20px;
   cursor: pointer;
+}
+.right-button:hover {
+  opacity: 0.5;
 }
 
 .left-button {
   width: 0;
   height: 0;
   border-top: solid 15px transparent;
-  border-right: solid 15px #787d83;
+  border-right: solid 15px #005FFF;
   border-bottom: solid 15px transparent;
   border-left: solid 15px transparent;
   cursor: pointer;
+}
+.left-button:hover {
+  opacity: 0.5;
+}
+
+.left-button-first {
+  width: 0;
+  height: 0;
+  border-top: solid 15px transparent;
+  border-right: solid 15px #787d83;
+  border-bottom: solid 15px transparent;
+  border-left: solid 15px transparent;
+}
+
+.right-button-last {
+  width: 0;
+  height: 0;
+  border-top: solid 15px transparent;
+  border-right: solid 15px transparent;
+  border-bottom: solid 15px transparent;
+  border-left: solid 15px #787d83;
+  margin-left: 20px;
 }
 
 .TB-research-img {
@@ -241,10 +266,31 @@ body {
   height: 80%;
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
 img {
   height: 100%;
+}
+
+.TB-result-btn {
+  display: flex;
+  justify-content: center;
+  height: 48px;
+}
+
+.return-main-btn {
+  height: 36px;
+  width: 52px;
+  margin-right: 20px;
+}
+
+.line-btn {
+  height: 36px;
+  width: 52px;
+  background-color: #3CB371;
+  color: white;
+  border-radius: 6px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -8,7 +8,6 @@
   float: right;
   display: flex;
   justify-content: right;
-  
 }
 
 .right-button{ 
@@ -17,17 +16,43 @@
   border-top: solid 15px transparent;
   border-right: solid 15px transparent;
   border-bottom: solid 15px transparent;
-  border-left: solid 15px blue;
+  border-left: solid 15px $blue;
   margin-left: 20px;
   cursor: pointer;
+  &:hover {
+    opacity: 0.5;
+  }
 }
 
+
 .left-button{ 
+  width: 0;
+  height: 0;
+  border-top: solid 15px transparent;
+  border-right: solid 15px $blue;
+  border-bottom: solid 15px transparent;
+  border-left: solid 15px transparent;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.left-button-first{ 
   width: 0;
   height: 0;
   border-top: solid 15px transparent;
   border-right: solid 15px #787d83;
   border-bottom: solid 15px transparent;
   border-left: solid 15px transparent;
-  cursor: pointer;
+}
+
+.right-button-last{ 
+  width: 0;
+  height: 0;
+  border-top: solid 15px transparent;
+  border-right: solid 15px transparent;
+  border-bottom: solid 15px transparent;
+  border-left: solid 15px #787d83;
+  margin-left: 20px;
 }

@@ -4,8 +4,29 @@
   height: 80%;
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
 img{
   height: 100%;
+}
+
+.TB-result-btn{
+  display: flex;
+  justify-content: center;
+  height: 48px;
+}
+
+.return-main-btn{
+  height: 36px;
+  width: 52px;
+  margin-right: 20px;
+}
+
+.line-btn{
+  height: 36px;
+  width: 52px;
+  background-color: $green;
+  color: white;
+  border-radius: 6px;
 }
