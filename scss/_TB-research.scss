@@ -2,6 +2,16 @@
   font-size: 24px;
   line-height: 24px;
   margin-bottom: 80px;
+  @include tab {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 24px;
+
+  }
+  @include sp {
+    font-size: 16px;
+    line-height: 16px;
+  }
 }
 
 .move-button{
