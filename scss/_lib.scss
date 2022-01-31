@@ -25,3 +25,25 @@ body {
   background-color: $beige;
   font-family: serif;
 }
+
+.pop-wrap {
+    width: 60vw;
+    height: 70vh;
+    margin: 40px auto;
+    // margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  }
+
+.pop-title {
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 2rem;
+}
+
+
+

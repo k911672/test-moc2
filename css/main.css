@@ -119,6 +119,24 @@ body {
   font-family: serif;
 }
 
+.pop-wrap {
+  width: 60vw;
+  height: 70vh;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background: white;
+  border-top: solid 5px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+.pop-title {
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 2rem;
+}
+
 #first-view {
   width: 100vw;
   height: 100vh;
@@ -127,7 +145,7 @@ body {
 }
 
 .first-container {
-  background-image: url(../img/hair-salon-img2.jpeg);
+  background-image: url(../img/hair-salon-img3.jpeg);
   width: 80%;
   height: 100%;
   background-repeat: no-repeat;
@@ -152,6 +170,51 @@ body {
 .first-button button {
   width: 100px;
   height: 40px;
+}
+
+.form-wrap {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+.form-wrap form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.form-wrap ul {
+  margin-bottom: 80px;
+  list-style: none;
+  line-height: 25px;
+}
+.form-wrap button {
+  margin: 0 auto;
+  width: 80px;
+}
+
+.move-button {
+  float: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-button {
+  width: 0;
+  height: 0;
+  border-top: solid 15px transparent;
+  border-right: solid 15px transparent;
+  border-bottom: solid 15px transparent;
+  border-left: solid 15px blue;
+  margin-left: 20px;
+}
+
+.left-button {
+  width: 0;
+  height: 0;
+  border-top: solid 15px transparent;
+  border-right: solid 15px #787d83;
+  border-bottom: solid 15px transparent;
+  border-left: solid 15px transparent;
 }
 
 /*# sourceMappingURL=main.css.map */

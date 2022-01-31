@@ -1,0 +1,22 @@
+.form-wrap {
+  width: 80%;
+  margin:0 auto;
+  padding-bottom: 60px;
+
+  form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  ul {
+    margin-bottom: 80px;
+    list-style: none;
+    line-height: 25px;
+  }
+
+  button {
+    margin: 0 auto;
+    width: 80px;
+  }
+}
